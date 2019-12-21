@@ -1,4 +1,4 @@
-Issue tracked at [Nuitka/XXX](https://github.com/Nuitka/Nuitka/issues/XXX)
+Issue tracked at [Nuitka/593](https://github.com/Nuitka/Nuitka/issues/593)
 
 Nuitka 0.6.5 fixed some issues when asyncio exceptions were triggered (see [Nuitka/165](https://github.com/Nuitka/Nuitka/issues/165) & [Nuitka/213](https://github.com/Nuitka/Nuitka/issues/213)). The compiled code no longer throw a `RuntimeError` exception however it looks like it is causing a memory leak. The number of objects reported by `gc.get_objects()` is always increasing (same for the RSS memory of the process).
 
